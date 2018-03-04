@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HTTP API">
+
+    <listeners>
+        <listener class-name="TestListener"/>
+    </listeners>
+    <test name="JIRA HTTP tests">
+        <classes>
+            <class name="SampleEmptyTest"/>
+        </classes>
+    </test>
+</suite>
